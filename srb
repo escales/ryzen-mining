@@ -1,0 +1,1 @@
+./SRBMiner-MULTI --multi-algorithm-job-mode 1 --disable-gpu --algorithm randomepic --pool us.epicmine.io:3334 --tls true --wallet scales.eypc --password prxMP8F9vCm=pool --keepalive true --cpu-threads 64 --cpu-threads-priority 5
