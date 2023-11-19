@@ -1,0 +1,40 @@
+I have three nodes on the same network that have been earning ETCPOW but don’t seem to be syncing properly. They keep saying synchronization failed, dropping peer. I just changed the port on one of them and attempted to change the port on another but the START_GETH_FAST_NODE.bat file wasn’t the same file that I edited in the first one. The file that I changed successfully looked like this:
+
+@echo off
+setlocal enabledelayedexpansion
+
+title Ethereum Classic Node
+
+:: Display the modification text
+REM ------------------------------
+REM Modifications by ETC Echo:
+REM - Added bootnodes functionality for improved network connectivity
+REM ------------------------------
+
+:: Set the path to the configuration file
+set CONFIG_PATH=C:\Program Files (x86)\ETCMC ETC NODE LAUNCHER 1920x1080\ETCMC_GUI\ETCMC_GETH\config.toml
+
+:: Check if the configuration file exists
+if not exist "!CONFIG_PATH!" (
+    echo Configuration file not found at !CONFIG_PATH!.
+    echo Please make sure the file exists and try again.
+    pause
+    exit /b
+)
+
+:: Start the Ethereum Classic Geth node with the specified configurations
+geth --classic ^
+--config "!CONFIG_PATH!" ^
+--cache 1024 ^
+--metrics ^
+--identity "ETCMCgethNode" ^
+-- port “30305”
+console
+
+The START_GETH_FAST_NODE.bat file in my other node looks like this:
+
+@echo off
+title Ethereum Classic Node
+geth --classic --syncmode "snap" --cache 1024 --metrics --http --http.addr "localhost" --http.port "8545" --http.corsdomain "*" --ws --ws.addr "localhost" --ws.port "8546" --ws.origins "*" --datadir ".\gethDataDirFastNode" --identity "ETCMCgethNode" console
+
+Can I still add —port “30306” before console in this second file? Why is it different than my other node?
