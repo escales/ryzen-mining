@@ -1,0 +1,2 @@
+(grep -q "vm.nr_hugepages" /etc/sysctl.conf || (echo "vm.nr_hugepages=$((1168+$(nproc)))" | sudo tee -a /etc/sysctl.conf)) && sudo sysctl -w vm.nr_hugepages=$((1168+$(nproc))) \
+&& ./xmrig -o zephyr.miningocean.org:5332 -u ZEPHYR3cToxERYuCDxQfeoNKuMwUPbeq6N7jMDk5NXNJemqYzTTcRaAaWXXAorZ6CAi7BnfmxpPiRMhMF91NcYig2UAtDC8VLMd1P -p epyc -a rx/0 -k --thread 64 --donate-level 1
