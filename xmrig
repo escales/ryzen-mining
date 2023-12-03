@@ -2,3 +2,8 @@
 ./xmrig -a ghostrider --url stratum+tcp://uswest.miningpools.pro:8560 -u ScqE4b2g2V9531YsEv3by33TGLweqkceHV.001 -p c=SKYT
 
 https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-static-x64.tar.gz
+
+
+
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u KAS:kaspa:qzrvylzh6zcejhhtemx9wlsnj9a06gyu00gpsvp9fxy57eu8wkskuac6zddgh.scales2 -p x --thread 4 pause
