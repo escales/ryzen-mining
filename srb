@@ -4,3 +4,6 @@
  wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.4.5/SRBMiner-Multi-2-4-5-Linux.tar.xz
  
 ./SRBMiner-MULTI -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.scales
+
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.36
+./cpuminer-ryzen --cpu-priority 5 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.scales
