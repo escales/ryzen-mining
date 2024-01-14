@@ -11,5 +11,5 @@ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.36/cpu
 
 
 64thread
-./cpuminer-ryzen --cpu-priority 5 --cpu-affinity 0x5555555555555555 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.eypc1
-./cpuminer-ryzen --cpu-priority 5 --cpu-affinity 0xAAAAAAAAAAAAAAAA -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.eypc1
+./cpuminer-ryzen --cpu-priority 5 --threads=32 --cpu-affinity 0x5555555555555555 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.eypc1
+./cpuminer-ryzen --cpu-priority 5 --threads=32 --cpu-affinity 0xAAAAAAAAAAAAAAAA -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.eypc1
