@@ -13,3 +13,13 @@ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.36/cpu
 64thread
 ./cpuminer-ryzen --cpu-priority 5 --threads=32 --cpu-affinity 0x5555555555555555 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.eypc1
 ./cpuminer-ryzen --cpu-priority 5 --threads=32 --cpu-affinity 0xAAAAAAAAAAAAAAAA -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.eypc1
+
+
+intel E5 24core
+./cpuminer-avx --cpu-priority 5 --threads=5 --cpu-affinity 0x000000000000001F -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.chia2
+
+./cpuminer-avx --cpu-priority 5 --threads=5 --cpu-affinity 0x00000000000007C0 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.chia2
+
+./cpuminer-avx --cpu-priority 5 --threads=5 --cpu-affinity 0x000000000001F000 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.chia2
+
+./cpuminer-avx --cpu-priority 5 --threads=5 --cpu-affinity 0x00000000007C0000 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17079 -u urWSvD8urqZHKPWpbxdKRxCFtrGSBG4oZh.chia2
