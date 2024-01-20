@@ -16,6 +16,9 @@ https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-stat
 (grep -q "vm.nr_hugepages" /etc/sysctl.conf || (echo "vm.nr_hugepages=$((1168+$(nproc)))" | sudo tee -a /etc/sysctl.conf)) && sudo sysctl -w vm.nr_hugepages=$((1168+$(nproc))) \
 && ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -u 32utjQW4dK6f8U8asC4jJod8s5bu4FzsU5.chia2 -p x --thread 12 pause
 
+sudo (grep -q "vm.nr_hugepages" /etc/sysctl.conf || (echo "vm.nr_hugepages=$((1168+$(nproc)))" | sudo tee -a /etc/sysctl.conf)) && sudo sysctl -w vm.nr_hugepages=$((1168+$(nproc))) \
+&& ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -u 32utjQW4dK6f8U8asC4jJod8s5bu4FzsU5.chia2 -p x --thread 12 pause
+
 
 
 (grep -q "vm.nr_hugepages" /etc/sysctl.conf || (echo "vm.nr_hugepages=$((1168+$(nproc)))" | sudo tee -a /etc/sysctl.conf)) && sudo sysctl -w vm.nr_hugepages=$((1168+$(nproc))) \
