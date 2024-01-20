@@ -13,3 +13,7 @@ https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-stat
 
 (grep -q "vm.nr_hugepages" /etc/sysctl.conf || (echo "vm.nr_hugepages=$((1168+$(nproc)))" | sudo tee -a /etc/sysctl.conf)) && sudo sysctl -w vm.nr_hugepages=$((1168+$(nproc))) \
 && ./xmrig -o rx.unmineable.com:3333 -a rx -k -u BONK:7itWy88HxSb7qfot928MuVtegQ8ZVpPfvoezooapXHcw.eypc -p x --thread 64 pause
+
+How To Install "msr-tools" Package on Ubuntu
+sudo apt-get update -y
+sudo apt-get install -y msr-tools
