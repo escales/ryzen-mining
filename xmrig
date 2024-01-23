@@ -3,7 +3,7 @@
 
 https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-static-x64.tar.gz
 
-
+wget https://github.com/escales/VerusCliMining/blob/main/config.nice
 
 
 ./xmrig -o rx.unmineable.com:3333 -a rx -k -u KAS:kaspa:qzrvylzh6zcejhhtemx9wlsnj9a06gyu00gpsvp9fxy57eu8wkskuac6zddgh.scales2 -p x --thread 4 pause
