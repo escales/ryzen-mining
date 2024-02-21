@@ -3,3 +3,5 @@
 
 (grep -q "vm.nr_hugepages" /etc/sysctl.conf || (echo "vm.nr_hugepages=$((1168+$(nproc)))" | sudo tee -a /etc/sysctl.conf)) && sudo sysctl -w vm.nr_hugepages=$((1168+$(nproc))) \
 && ./xmrig -o pool.mangonote.fun:7770	 -a rx -k -u XM3YCyWgxsxXqt2DbgVbvAj8Zs4bWG9wzY8K93CtBWh3WDcJWVVzXHsQg4JgTXwHmebeQZ15mRXKLRVeNU3mhyeP2APn4QYt3 -p x --thread 4 pause
+
+xmrig -a randomx --url randomx.rplant.xyz:17020 --tls --user XM3YCyWgxsxXqt2DbgVbvAj8Zs4bWG9wzY8K93CtBWh3WDcJWVVzXHsQg4JgTXwHmebeQZ15mRXKLRVeNU3mhyeP2APn4QYt3.scales
