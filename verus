@@ -4,3 +4,5 @@ curl -o- -k https://raw.githubusercontent.com/escales/VerusCliMining/main/instal
 NiceHash
 
 ./hellminer -c stratum+tcp://verushash.auto.nicehash.com:9200 -u 32utjQW4dK6f8U8asC4jJod8s5bu4FzsU5.eypc -p x --cpu 64
+
+./hellminer -c stratum+tcp://192.168.0.216:4444 -u 32utjQW4dK6f8U8asC4jJod8s5bu4FzsU5.up -p x --cpu 8y
