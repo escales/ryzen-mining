@@ -1,0 +1,59 @@
+
+
+
+wget https://github.com/romslf/Ultimate-Proxy/releases/download/2.2.1.6/UltimateProxy-v2.2.1.6-linux-x64.zip
+
+chmod +x UltimateProxyV2
+
+Start proxy
+******************************************************************************
+ ./UltimateProxyV2 config.json
+
+
+config.json
+*********************************************
+{
+  "AllowedAddresses": [
+    "0.0.0.0"
+  ],
+  "PoolList": [
+    {
+      "address": "verushash.auto.nicehash.com",
+      "port": 9200,
+      "ssl": false,
+      "node": false,
+      "ratio": 0
+    },
+    {
+      "address": "verushash.auto.nicehash.com",
+      "port": 9200,
+      "ssl": false,
+      "node": false,
+      "ratio": 0
+    },
+    {
+      "address": "verushash.auto.nicehash.com",
+      "port": 9200,
+      "ssl": false,
+      "node": false,
+      "ratio": 0
+    }
+  ],
+  "Protocol": "STRATUM",
+  "ProxyPort": 4444,
+  "ProxyCert": "",
+  "Coin": "VRSC",
+  "Wallet": "32utjQW4dK6f8U8asC4jJod8s5bu4FzsU5",
+  "Worker": "UP",
+  "Password": "hybrid",
+  "RatioWindowTimeHours": 24,
+  "PrintStats": true,
+  "StatsIntervalSeconds": 60,
+  "PrintJobs": true,
+  "NodeGetWorkIntervalMs": 500,
+  "AllowDuplicateWorkerNames": true,
+  "SendStaleShares": true,
+  "ExtranonceSubscription": true,
+  "ForceWorkersReconnect": false
+}
+***************************************************************
