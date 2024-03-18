@@ -12,6 +12,6 @@ https://github.com/rplant8/cpuminer-opt-rplant/releases/
 
 #!/bin/sh
 while [ 1 ]; do
-	./cpuminer-sse2 -a yespowersugar  -o stratum+tcps://stratum-na.rplant.xyz:17115 -u shuga1qygcje6fj35vkfrh4gvjepwrryv7qjpanq2mj52
+	./cpuminer-sse2 -a yespowersugar  -o stratum+tcps://stratum-na.rplant.xyz:17115 -u shuga1qygcje6fj35vkfrh4gvjepwrryv7qjpanq2mj52 -t 63 --cpu-priority 5
 	sleep 5
 done
