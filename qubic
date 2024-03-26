@@ -3,7 +3,7 @@ https://wallet.qubic.li/
 
 https://github.com/qubic-li/client#download
 
-https://dl.qubic.li/downloads/qli-Client-1.8.7.1-Linux-x64.tar.gz
+https://dl.qubic.li/downloads/qli-Client-1.8.10-Linux-x64.tar.gz
 
 mkdir ~/qubic;
 cd ~/qubic;
@@ -35,3 +35,15 @@ mkdir glibc-build && cd glibc-build
 ../configure --prefix=/opt/glibc
 make
 make install
+
+
+
+{
+  "Settings": {
+    "baseUrl": "https://mine.qubic.li/",
+    "amountOfThreads": 14,
+    "payoutId": null,
+    "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM5NDcwZjZhLTUzMTEtNDM2YS1hMmQwLTc4NDkyODQ5ZjM2NyIsIk1pbmluZyI6IiIsIm5iZiI6MTcxMDQ2NDU5NywiZXhwIjoxNzQyMDAwNTk3LCJpYXQiOjE3MTA0NjQ1OTcsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.cMGzcq8RjG21a87eGJT4Fb7ixb473et7Xhs8D6_1aFdp4h2XxspceYqjEl64GlVpXEqSQwvPo2b6_-wUYjLUZQ",
+    "alias": "ser2"
+  }
+}
