@@ -25,7 +25,15 @@ sample appsettings.json for CPU set to 10 threads:
   }
 }
 
-
+﻿{
+  "Settings": {
+    "baseUrl": "https://mine.qubic.li/",
+    "amountOfThreads": 15,
+    "payoutId": null,
+    "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM5NDcwZjZhLTUzMTEtNDM2YS1hMmQwLTc4NDkyODQ5ZjM2NyIsIk1pbmluZyI6IiIsIm5iZiI6MTcxMDQ2NDU5NywiZXhwIjoxNzQyMDAwNTk3LCJpYXQiOjE3MTA0NjQ1OTcsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.cMGzcq8RjG21a87eGJT4Fb7ixb473et7Xhs8D6_1aFdp4h2XxspceYqjEl64GlVpXEqSQwvPo2b6_-wUYjLUZQ",
+    "alias": "ser2"
+  }
+}
 
 
 apt-get install gawk bison gcc make wget tar -y
