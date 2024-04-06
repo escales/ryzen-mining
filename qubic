@@ -28,6 +28,23 @@ sample appsettings.json for CPU set to 10 threads:
 
 
 
+Android Termux install
+Detailed Commands:
+pkg update
+termux-change-repo
+apt update && apt upgrade -y
+pkg install proot-distro
+proot-distro list
+proot-distro install ubuntu
+proot-distro login ubuntu
+cat /etc/os-release
+apt update
+apt install wget
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.19/rqiner-aarch64-mobile
+chmod u+x rqiner-aarch64-mobile 
+./rqiner-aarch64-mobile -t 8 -i SKKPQCCWKDOSXGKBBYPEBRDXWWWBZGXZUEGNMBWCAGHXLVECYZUEZLMGNRNF
+
+
 apt-get install gawk bison gcc make wget tar -y
 wget -c https://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.gz
 tar -zxvf glibc-2.35.tar.gz && cd glibc-2.35
