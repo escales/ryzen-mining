@@ -1,0 +1,5 @@
+https://github.com/CGMinerGit/CGMiner/releases/download/4.12.0/cgminer-gekko-all-usb-8c579bb.zip
+
+https://solo.ckpool.org/
+
+./cgminer --enable-bflsc  -o stratum+tcp://solo.ckpool.org:3333 -u 1Ci3yJyUvxxoDqyNEXVSe1SULKJ5kQGPou.butterfly -p x
