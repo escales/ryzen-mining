@@ -3,3 +3,6 @@ https://github.com/CGMinerGit/CGMiner/releases/download/4.12.0/cgminer-gekko-all
 https://solo.ckpool.org/
 
 ./cgminer --enable-bflsc  -o stratum+tcp://solo.ckpool.org:3333 -u 1Ci3yJyUvxxoDqyNEXVSe1SULKJ5kQGPou.butterfly -p x
+
+
+https://github.com/CypherpunkArmory/UserLAnd/releases/download/v2.8.3/app-release.apk
