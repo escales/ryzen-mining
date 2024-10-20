@@ -1,6 +1,8 @@
 https://github.com/CypherpunkArmory/UserLAnd/releases/download/v2.8.3/app-release.apk
 
 curl -o- -k https://raw.githubusercontent.com/escales/VerusCliMining/main/install.sh | bash
+vipor 
+usw.vipor.net:5040
 
 luckpool
 
