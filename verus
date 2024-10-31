@@ -4,6 +4,10 @@ curl -o- -k https://raw.githubusercontent.com/escales/VerusCliMining/main/instal
 vipor 
 usw.vipor.net:5040
 
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.9/SRBMiner-Multi-2-6-9-Linux.tar.gz
+
+./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool na.luckpool.net:3960 --wallet RH28krYDbbdmZTPMoGWhyCa11MfJ9YjMby.ser2 --password x --cpu-threads 0
+
 luckpool
 
 Dashboard
